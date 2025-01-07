@@ -23,20 +23,6 @@ repos:
         require_serial: true
         types: [python]
 
-      - id: flake8
-        name: flake8
-        language: system
-        entry: flake8 --config .flake8 --statistics
-        require_serial: true
-        types: [python]
-
-      - id: isort
-        name: isort
-        language: system
-        entry: isort
-        require_serial: true
-        types: [python]
-
       - id: mypy
         name: mypy
         language: system
