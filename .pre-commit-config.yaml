@@ -40,8 +40,6 @@ repos:
       - id: mypy
         name: mypy
         language: system
-        entry: dmypy run --timeout 3600 src
+        entry: dmypy run --timeout 3600 .
         require_serial: true
         pass_filenames: false
-        files: ^src/.+$
-        exclude: ^tests/.+$
